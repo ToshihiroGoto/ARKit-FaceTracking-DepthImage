@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82102EF51FBC2A4F00C6D1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82102EF41FBC2A4F00C6D1EA /* AppDelegate.swift */; };
+		82102EF71FBC2A4F00C6D1EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82102EF61FBC2A4F00C6D1EA /* ViewController.swift */; };
+		82102EFA1FBC2A4F00C6D1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82102EF81FBC2A4F00C6D1EA /* Main.storyboard */; };
+		82102EFC1FBC2A4F00C6D1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82102EFB1FBC2A4F00C6D1EA /* Assets.xcassets */; };
+		82102EFF1FBC2A4F00C6D1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82102EFD1FBC2A4F00C6D1EA /* LaunchScreen.storyboard */; };
+		82102F0A1FBC2A4F00C6D1EA /* FaceTrakingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82102F091FBC2A4F00C6D1EA /* FaceTrakingTests.swift */; };
+		82102F151FBC2A4F00C6D1EA /* FaceTrakingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82102F141FBC2A4F00C6D1EA /* FaceTrakingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82102F061FBC2A4F00C6D1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82102EE91FBC2A4F00C6D1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82102EF01FBC2A4F00C6D1EA;
+			remoteInfo = FaceTraking;
+		};
+		82102F111FBC2A4F00C6D1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82102EE91FBC2A4F00C6D1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82102EF01FBC2A4F00C6D1EA;
+			remoteInfo = FaceTraking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82102EF11FBC2A4F00C6D1EA /* FaceTraking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceTraking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82102EF41FBC2A4F00C6D1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82102EF61FBC2A4F00C6D1EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82102EF91FBC2A4F00C6D1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82102EFB1FBC2A4F00C6D1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82102EFE1FBC2A4F00C6D1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82102F001FBC2A4F00C6D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82102F051FBC2A4F00C6D1EA /* FaceTrakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceTrakingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82102F091FBC2A4F00C6D1EA /* FaceTrakingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrakingTests.swift; sourceTree = "<group>"; };
+		82102F0B1FBC2A4F00C6D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82102F101FBC2A4F00C6D1EA /* FaceTrakingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceTrakingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82102F141FBC2A4F00C6D1EA /* FaceTrakingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrakingUITests.swift; sourceTree = "<group>"; };
+		82102F161FBC2A4F00C6D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82102EEE1FBC2A4F00C6D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F021FBC2A4F00C6D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F0D1FBC2A4F00C6D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82102EE81FBC2A4F00C6D1EA = {
+			isa = PBXGroup;
+			children = (
+				82102EF31FBC2A4F00C6D1EA /* FaceTraking_DepthImage */,
+				82102F081FBC2A4F00C6D1EA /* FaceTraking_DepthImageTests */,
+				82102F131FBC2A4F00C6D1EA /* FaceTraking_DepthImageUITests */,
+				82102EF21FBC2A4F00C6D1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82102EF21FBC2A4F00C6D1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82102EF11FBC2A4F00C6D1EA /* FaceTraking.app */,
+				82102F051FBC2A4F00C6D1EA /* FaceTrakingTests.xctest */,
+				82102F101FBC2A4F00C6D1EA /* FaceTrakingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82102EF31FBC2A4F00C6D1EA /* FaceTraking_DepthImage */ = {
+			isa = PBXGroup;
+			children = (
+				82102EF41FBC2A4F00C6D1EA /* AppDelegate.swift */,
+				82102EF61FBC2A4F00C6D1EA /* ViewController.swift */,
+				82102EF81FBC2A4F00C6D1EA /* Main.storyboard */,
+				82102EFB1FBC2A4F00C6D1EA /* Assets.xcassets */,
+				82102EFD1FBC2A4F00C6D1EA /* LaunchScreen.storyboard */,
+				82102F001FBC2A4F00C6D1EA /* Info.plist */,
+			);
+			path = FaceTraking_DepthImage;
+			sourceTree = "<group>";
+		};
+		82102F081FBC2A4F00C6D1EA /* FaceTraking_DepthImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				82102F091FBC2A4F00C6D1EA /* FaceTrakingTests.swift */,
+				82102F0B1FBC2A4F00C6D1EA /* Info.plist */,
+			);
+			path = FaceTraking_DepthImageTests;
+			sourceTree = "<group>";
+		};
+		82102F131FBC2A4F00C6D1EA /* FaceTraking_DepthImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82102F141FBC2A4F00C6D1EA /* FaceTrakingUITests.swift */,
+				82102F161FBC2A4F00C6D1EA /* Info.plist */,
+			);
+			path = FaceTraking_DepthImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82102EF01FBC2A4F00C6D1EA /* FaceTraking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82102F191FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTraking" */;
+			buildPhases = (
+				82102EED1FBC2A4F00C6D1EA /* Sources */,
+				82102EEE1FBC2A4F00C6D1EA /* Frameworks */,
+				82102EEF1FBC2A4F00C6D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceTraking;
+			productName = FaceTraking;
+			productReference = 82102EF11FBC2A4F00C6D1EA /* FaceTraking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82102F041FBC2A4F00C6D1EA /* FaceTrakingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82102F1C1FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTrakingTests" */;
+			buildPhases = (
+				82102F011FBC2A4F00C6D1EA /* Sources */,
+				82102F021FBC2A4F00C6D1EA /* Frameworks */,
+				82102F031FBC2A4F00C6D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82102F071FBC2A4F00C6D1EA /* PBXTargetDependency */,
+			);
+			name = FaceTrakingTests;
+			productName = FaceTrakingTests;
+			productReference = 82102F051FBC2A4F00C6D1EA /* FaceTrakingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82102F0F1FBC2A4F00C6D1EA /* FaceTrakingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82102F1F1FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTrakingUITests" */;
+			buildPhases = (
+				82102F0C1FBC2A4F00C6D1EA /* Sources */,
+				82102F0D1FBC2A4F00C6D1EA /* Frameworks */,
+				82102F0E1FBC2A4F00C6D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82102F121FBC2A4F00C6D1EA /* PBXTargetDependency */,
+			);
+			name = FaceTrakingUITests;
+			productName = FaceTrakingUITests;
+			productReference = 82102F101FBC2A4F00C6D1EA /* FaceTrakingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82102EE91FBC2A4F00C6D1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Toshihiro Goto";
+				TargetAttributes = {
+					82102EF01FBC2A4F00C6D1EA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					82102F041FBC2A4F00C6D1EA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82102EF01FBC2A4F00C6D1EA;
+					};
+					82102F0F1FBC2A4F00C6D1EA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82102EF01FBC2A4F00C6D1EA;
+					};
+				};
+			};
+			buildConfigurationList = 82102EEC1FBC2A4F00C6D1EA /* Build configuration list for PBXProject "FaceTraking_DepthImage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82102EE81FBC2A4F00C6D1EA;
+			productRefGroup = 82102EF21FBC2A4F00C6D1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82102EF01FBC2A4F00C6D1EA /* FaceTraking */,
+				82102F041FBC2A4F00C6D1EA /* FaceTrakingTests */,
+				82102F0F1FBC2A4F00C6D1EA /* FaceTrakingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82102EEF1FBC2A4F00C6D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82102EFF1FBC2A4F00C6D1EA /* LaunchScreen.storyboard in Resources */,
+				82102EFC1FBC2A4F00C6D1EA /* Assets.xcassets in Resources */,
+				82102EFA1FBC2A4F00C6D1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F031FBC2A4F00C6D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F0E1FBC2A4F00C6D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82102EED1FBC2A4F00C6D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82102EF71FBC2A4F00C6D1EA /* ViewController.swift in Sources */,
+				82102EF51FBC2A4F00C6D1EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F011FBC2A4F00C6D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82102F0A1FBC2A4F00C6D1EA /* FaceTrakingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82102F0C1FBC2A4F00C6D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82102F151FBC2A4F00C6D1EA /* FaceTrakingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82102F071FBC2A4F00C6D1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82102EF01FBC2A4F00C6D1EA /* FaceTraking */;
+			targetProxy = 82102F061FBC2A4F00C6D1EA /* PBXContainerItemProxy */;
+		};
+		82102F121FBC2A4F00C6D1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82102EF01FBC2A4F00C6D1EA /* FaceTraking */;
+			targetProxy = 82102F111FBC2A4F00C6D1EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82102EF81FBC2A4F00C6D1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82102EF91FBC2A4F00C6D1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82102EFD1FBC2A4F00C6D1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82102EFE1FBC2A4F00C6D1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82102F171FBC2A4F00C6D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82102F181FBC2A4F00C6D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82102F1A1FBC2A4F00C6D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceTraking_DepthImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toshihiroGotoh.FaceTraking-DepthImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82102F1B1FBC2A4F00C6D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceTraking_DepthImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toshihiroGotoh.FaceTraking-DepthImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82102F1D1FBC2A4F00C6D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = FaceTrakingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshihiroGotoh.FaceTrakingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTraking.app/FaceTraking";
+			};
+			name = Debug;
+		};
+		82102F1E1FBC2A4F00C6D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = FaceTrakingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshihiroGotoh.FaceTrakingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTraking.app/FaceTraking";
+			};
+			name = Release;
+		};
+		82102F201FBC2A4F00C6D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = FaceTrakingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshihiroGotoh.FaceTrakingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceTraking;
+			};
+			name = Debug;
+		};
+		82102F211FBC2A4F00C6D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43RPG97GKY;
+				INFOPLIST_FILE = FaceTrakingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshihiroGotoh.FaceTrakingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceTraking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82102EEC1FBC2A4F00C6D1EA /* Build configuration list for PBXProject "FaceTraking_DepthImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82102F171FBC2A4F00C6D1EA /* Debug */,
+				82102F181FBC2A4F00C6D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82102F191FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTraking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82102F1A1FBC2A4F00C6D1EA /* Debug */,
+				82102F1B1FBC2A4F00C6D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82102F1C1FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTrakingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82102F1D1FBC2A4F00C6D1EA /* Debug */,
+				82102F1E1FBC2A4F00C6D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82102F1F1FBC2A4F00C6D1EA /* Build configuration list for PBXNativeTarget "FaceTrakingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82102F201FBC2A4F00C6D1EA /* Debug */,
+				82102F211FBC2A4F00C6D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82102EE91FBC2A4F00C6D1EA /* Project object */;
+}

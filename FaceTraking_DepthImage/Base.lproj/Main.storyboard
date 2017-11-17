@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FaceTraking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ARSCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dXL-Re-xZU">
+                                <rect key="frame" x="16" y="43.999999999999986" width="140" height="248.66666666666663"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="248.80000000000001" id="Rix-6Y-uEt"/>
+                                    <constraint firstAttribute="width" constant="140" id="r0M-wd-5bB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="360:640 (15 FPS)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcE-1E-6ln">
+                                <rect key="frame" x="16" y="300.66666666666669" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AcE-1E-6ln" firstAttribute="centerX" secondItem="dXL-Re-xZU" secondAttribute="centerX" id="YyM-sw-fue"/>
+                            <constraint firstItem="AcE-1E-6ln" firstAttribute="top" secondItem="dXL-Re-xZU" secondAttribute="bottom" constant="8" id="cE4-qB-RTT"/>
+                            <constraint firstItem="dXL-Re-xZU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jlW-hs-3GW"/>
+                            <constraint firstItem="AcE-1E-6ln" firstAttribute="width" secondItem="dXL-Re-xZU" secondAttribute="width" id="u1C-6K-TIZ"/>
+                            <constraint firstItem="dXL-Re-xZU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xss-2v-nY1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="depthImageView" destination="dXL-Re-xZU" id="1rd-in-O8C"/>
+                        <outlet property="sceneView" destination="8bC-Xf-vdC" id="YM6-Lz-BRv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
